@@ -47,6 +47,11 @@ body, html {
     }
 }
 
+.table{
+    display: block;
+    overflow: scroll;
+}
+
 .form-control:focus{
     border-color: #c9c9c9;
     outline: 0;
@@ -208,7 +213,7 @@ hr{border:0;border-top:1px solid #eee;margin:2px 15px}
 .tm-dropdown-hover.tm-mobile .tm-dropdown-content,.tm-dropdown-click.tm-mobile .tm-dropdown-content{position:relative}  
 .tm-hide-small{display:none!important}.tm-mobile{display:block;width:100%}.tm-bar-item.tm-mobile,.tm-dropdown-hover.tm-mobile,.tm-dropdown-click.tm-mobile{text-align:center}
 .tm-dropdown-hover.tm-mobile,.tm-dropdown-hover.tm-mobile .tm-btn,.tm-dropdown-hover.tm-mobile .tm-button,.tm-dropdown-click.tm-mobile,.tm-dropdown-click.tm-mobile .tm-btn,.tm-dropdown-click.tm-mobile .tm-button{width:100%}}
-@media (max-width:768px){.tm-modal-content{width:500px}.tm-modal{padding-top:50px} #order{width: 90%}}
+@media (max-width:768px){.tm-modal-content{width:500px}.panel-info.form {width: 80%}.tm-modal{padding-top:50px} #order{width: 90%}}
 @media (min-width:993px){.tm-modal-content{width:900px}.tm-hide-large{display:none!important}.tm-sidebar.tm-collapse{display:block}}
 @media (max-width:992px) and (min-width:601px){.tm-hide-medium{display:none!important}}
 @media (max-width:992px){.tm-sidebar.tm-collapse{display:none}.tm-main{margin-left:0;margin-right:0}}
